@@ -1,0 +1,11 @@
+.site-container {
+    .splash-container {
+        // display: none;
+    }
+    .site-components {
+        display: none;
+    }
+}
+
+@import "SplashPage.scss";
+@import "NavBar.scss";
