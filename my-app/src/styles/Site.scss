@@ -1,11 +1,26 @@
-.site-container {
-    .splash-container {
-        // display: none;
-    }
-    .site-components {
-        display: none;
+body {
+    margin: 0px;
+
+    .site-container {
+        .splash-container {
+            // display: none;
+        }
+        .site-components {
+            // display: none;
+        }
     }
 }
 
 @import "SplashPage.scss";
 @import "NavBar.scss";
+@import "About.scss";
+
+@font-face {
+    font-family: neonName;
+    src: url("./fonts/LASENTER_PERSONALUSEONLY.TTF");
+}
+
+@font-face {
+    font-family: neonSign;
+    src: url("./fonts/LASENTER_PERSONALUSEONLY.TTF");
+}

@@ -1,17 +1,20 @@
 import React from 'react';
 import SplashPage from './components/SplashPage';
 import NavBar from "./components/NavBar";
+import About from "./components/About";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './styles/Site.scss';
 
 function App() {
   return (
-    <div class="site-container">
-      <div class="splash-container">
+    <div className="site-container">
+      <div className="splash-container">
         <SplashPage />
       </div>
 
-      <div class="site-components">
-          <NavBar />     
+      <div className="site-components">
+          <NavBar />
+          <About />
       </div>
     </div>
   );
